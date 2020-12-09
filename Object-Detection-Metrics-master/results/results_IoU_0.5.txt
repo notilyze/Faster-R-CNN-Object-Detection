@@ -1,0 +1,24 @@
+Object Detection Metrics
+https://github.com/rafaelpadilla/Object-Detection-Metrics
+
+
+Average Precision (AP), Precision and Recall per class:Class: white_tent, Total Positives: 28
+
+
+Class: white_tent
+AP: 51.34%
+Precision: ['1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '1.00', '0.91', '0.92', '0.85', '0.86', '0.87', '0.88', '0.82', '0.83']
+Recall: ['0.04', '0.07', '0.11', '0.14', '0.18', '0.21', '0.25', '0.29', '0.32', '0.36', '0.36', '0.39', '0.39', '0.43', '0.46', '0.50', '0.50', '0.54']
+Area_sq: ['64.00', '55.43', '64.00', '64.00', '55.43', '55.43', '55.43', '64.00', '90.51', '39.19', '55.43', '39.19', '55.43', '55.43', '64.00', '55.43', '61.97', '48.00']
+
+Longest_side: ['64.0', '64.0', '64.0', '64.0', '64.0', '64.0', '64.0', '64.0', '128.0', '48.0', '64.0', '48.0', '64.0', '64.0', '64.0', '64.0', '80.0', '48.0']
+Number of ground-truth boxes: 28 should be equal to len(gt_counts)= 28
+Amount of gt boxes not found = 13
+Amount of gt boxes found = 15
+Amount of double boxes = 0
+Amount of detections that did not have (enough) overlap with any gt box = 3.0
+
+GT_counts: [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0]
+
+
+mAP: 51.34%

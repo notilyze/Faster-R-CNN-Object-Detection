@@ -1,0 +1,4 @@
+white_tent 348 306 400 370
+white_tent 291 341 352 400
+white_tent 397 238 400 302
+white_tent 392 343 400 400

@@ -1,0 +1,7 @@
+src/
+dst/
+site/
+__pycache__/
+.ipynb_checkpoints/
+dist/
+*.pyc

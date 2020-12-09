@@ -1,0 +1,10 @@
+white_tent 219 36 280 100
+white_tent 291 0 352 5
+white_tent 392 0 400 7
+white_tent 291 57 352 120
+white_tent 263 87 324 151
+white_tent 314 4 375 68
+white_tent 324 181 385 245
+white_tent 257 254 317 318
+white_tent 380 239 400 303
+white_tent 345 21 400 155

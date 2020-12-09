@@ -1,0 +1,5 @@
+white_tent 0 0 53 7
+white_tent 40 0 100 31
+white_tent 0 239 41 303
+white_tent 10 152 71 216
+white_tent 0 21 64 155

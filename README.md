@@ -5,7 +5,7 @@ This project has been created by combining 3 existing Github projects and adding
 
 I have made edits to all three projects to make it all work. Also I did some changes that improved speed performances in Object-Detection-Metrics and I made some changes such that objects that are sliced into more than 2 boxes, are still having correct labels in all of the resulting slices.
 
-To avoid clashes in package versions, I created three environments within Anaconda:
+To avoid clashes in package versions, I created three environments within Anaconda (use the .yml files for easy installation):
 - kbardool: To do everything related to the original kbardool repository: training and testing the algorithm
 - slice: To do everything related to image_bbox_slicer
 - opencv: To do everything related to Object-Detection-Metrics and to run all files that connect the three original repositories.

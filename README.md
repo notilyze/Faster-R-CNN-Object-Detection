@@ -3,14 +3,14 @@ This project has been created by combining 3 existing Github projects and adding
 - image_bbox_slicer: https://github.com/acl21/image_bbox_slicer
 - Object-Detection-Metrics: https://github.com/rafaelpadilla/Object-Detection-Metrics
 
-I have made edits to all three projects to make it all work. Also I did some changes that improved speed performances in Object-Detection-Metrics and I made some changes such that objects that are sliced into more than 2 boxes, are still having correct labels in all of the resulting slices.
+Edits have been made to all three projects to minimize the need of changing formats in data. Also in that process some changes were made that improve speed performance in Object-Detection-Metrics and some changes are made in image_bbox_slicer, to make sure that objects that are sliced into more than 2 tiles, are still having correct labels in all of the resulting slices. 
 
-To avoid clashes in package versions, I created three environments within Anaconda (use the .yml files for easy installation):
+To avoid clashes in package versions, three environments should be created within Anaconda (use the .yml files for easy installation):
 - kbardool: To do everything related to the original kbardool repository: training and testing the algorithm
 - slice: To do everything related to image_bbox_slicer
-- opencv: To do everything related to Object-Detection-Metrics and to run all files that connect the three original repositories.
+- opencv: To do everything related to Object-Detection-Metrics and to run all files that connect the three original repositories (names of these .py-files start with 'opencv').
 
-Please have a look at Overview Image-Detection.svg for an overview of all python files and their relation to each other.
+Please have a look at 'Overview Image-Detection.svg' for an overview of all python files and their relation to each other.
 
 Some things that you might run into:
 - Input images that were used in this project were all .png images. 
@@ -18,4 +18,4 @@ Some things that you might run into:
 
 opencv_18: background labels ('bg') are only useful to be made in the training data set, because the validation is made in such a way that 'bg' labels are ignored; we are only interested in how good the model can detect the objects we are interested in. However, during training these 'bg' labels can cause the model to train faster as it also gets input on what he is not supposed to detect as being an object. (To let this work properly, it is important that the background labels are explicitly called 'bg'.)
 
-opencv_18: background labels are made by using image slices that do not contain any objects. These image slices are completely labelled as background, that is, a 400x400 pixel bounding box covering the whole empty image slice. This is different from using the mined hard negatives as is done via opencv_19
+opencv_18: background labels are made by using image slices that do not contain any objects. These image slices are completely labelled as background, that is, a 400x400 pixel bounding box covering the whole empty image slice. This is different from using the mined hard negatives as is done via opencv_19.

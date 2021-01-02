@@ -24,3 +24,6 @@ Some things that you might run into:
 - opencv_18: background labels ('bg') are only useful to be made in the training data set, because the validation is made in such a way that 'bg' labels are ignored; we are only interested in how good the model can detect the objects we are interested in. However, during training these 'bg' labels can cause the model to train faster as it also gets input on what he is not supposed to detect as being an object. (To let this work properly, it is important that the background labels are explicitly called 'bg'.)
 - opencv_18: background labels are made by using image slices that do not contain any objects. These image slices are completely labelled as background, that is, a 400x400 pixel bounding box covering the whole empty image slice. This is different from using the mined hard negatives as is done via opencv_19.
 - kbardool_14_test_frcnn_boost.py: it is recommended to run this file on batches of image slices of around 100-200 slices each time (for 10 RPN 'trees'). Due to the fact that the image results on each RPN tree needs to be saved, and then combined for the CLS part, the program slows down with growing amounts of data in memory.
+
+
+For questions related to Notilyze or for requests on additional information, please contact web [at] notilyze [dot] com

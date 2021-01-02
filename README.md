@@ -13,6 +13,7 @@ To avoid clashes in package versions, three environments should be created withi
 - opencv: To do everything related to Object-Detection-Metrics and to run all files that connect the three original repositories (names of these .py-files start with 'opencv').
 
 Please have a look at 'Overview Image-Detection.svg' for an overview of all python files and their relation to each other.
+
 Please have a look at 'Thesis - Methodology.pdf' for the theory behind the code.
 
 Some things that you might run into:

@@ -26,4 +26,4 @@ Some things that you might run into:
 - kbardool_14_test_frcnn_boost.py: it is recommended to run this file on batches of image slices of around 100-200 slices each time (for 10 RPN 'trees'). Due to the fact that the image results on each RPN tree needs to be saved, and then combined for the CLS part, the program slows down with growing amounts of data in memory.
 
 
-For questions related to Notilyze or for requests on additional information, please contact web [at] notilyze [dot] com
+For questions related to Notilyze or for requests on additional information, please contact web [at] notilyze [dot] com.

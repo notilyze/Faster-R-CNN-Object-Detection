@@ -1,3 +1,5 @@
+For more information about the context of this project, please have a look at https://notilyze.com/news/improving-object-detection-with-contrast-stretching/ and other pages on this domain.
+
 Note that this project has mainly been used for research objectives. Therefore the workflow is not optimized completely (i.e. running one script and having outputs directly). This has the advantage that it is clear what happens in each part of the code, and also it is easier to e.g. continue training from a certain point, add an extra (or maybe an own) preprocessing step before training etc. So more flexibility in developing new methods is created by cutting the workflow into smaller tasks.
 
 This project has been created by combining 3 existing Github projects and adding files to connect all of them. The three original projects are:
